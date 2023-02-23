@@ -1,0 +1,224 @@
+.header-left__logo {
+    background-color: unset;
+}
+
+.welcome {
+    margin-top: var(--header-height);
+    height: 170px;
+    background: linear-gradient(90deg,#f65e38 0,#f68a39 51%,#f65e38);
+    display: flex;
+    align-items: center;
+}
+
+.welcome__content {
+    color: var(--white-color);
+}
+
+.welcome__heading {
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.welcome__desc {
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: var(--white-color);
+    margin: 0;
+}
+
+.section__item {
+    margin-top: 48px;
+}
+
+.section__img {
+    width: 65px;
+    height: 70px;
+    object-fit: contain;
+}
+
+.section__item-heading {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-top: 24px;
+    margin-bottom: 12px;
+    color: var(--text-color);
+}
+
+.section__item-sub-heading {
+    color: #555;
+    font-size: 1.4rem;
+    margin: 0;
+}
+
+.account {
+    margin-top: -110px;
+    background-color: var(--white-color);
+    box-shadow: 0 9px 46px 8px rgb(0 0 0 / 2%), 0 24px 38px 3px rgb(0 0 0 / 4%), 0 11px 15px -7px rgb(0 0 0 / 5%);
+    border-radius: 10px;
+    padding: 32px;
+}
+
+.account__title {
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin-bottom: 24px;
+    color: var(--text-color);
+}
+
+.account-sub-title {
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: var(--text-color);
+    margin-bottom: 20px;
+}
+
+.account__email,
+.account__password {
+    margin-top: 24px;
+    font-size: 1.4rem;
+    height: 48px;
+    width: 100%;
+    border: 1px solid #e6e6e6;
+    border-radius: 48px;
+    display: flex;
+}
+
+.account__email-input,
+.account__password-input {
+    outline: none;
+    border: none;
+    flex: 1;
+    padding: 8px 20px;
+    background-color: transparent;
+}
+
+
+.account__email-icon,
+.account__password-icon {
+    text-align: right;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.account__btn {
+    margin-top: 28px;
+    box-shadow: 0 4px 12px 0 rgb(246 116 57 / 40%);
+    background: linear-gradient(90deg,#f65e38 0,#f68a39 51%,#f65e38);
+    width: 100%;
+    border: none;
+    height: 53px;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: var(--white-color);
+    line-height: 5.3rem;
+    border-radius: 48px;
+}
+
+.account__content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1.4rem;
+    color: var(--text-color);
+}
+
+.account__forget {
+    margin-top: 20px;
+}
+
+.account__register {
+    margin-top: 18px;
+}
+
+.account__link {
+    transition: all linear 0.3s;
+}
+
+.account__link:hover {
+    color: #000;
+}
+
+.account__forget a,
+.account__register a {
+    font-weight: 500;
+    color: var(--primary-color);
+}
+
+
+.account__center {
+    display: block;
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 18px;
+    font-size: 1.6rem;
+}
+
+.account__gg {
+    margin-top: 16px;
+}
+
+.account__fb,
+.account__gg {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    height: 55px;
+    border: 1px solid #e6e6e6;
+    color: #555;
+    border-radius: 48px;
+}
+
+.account__fb span,
+.account__gg span {
+    flex: 1;
+    line-height: 53px;
+    font-size: 1.4rem;
+    transition: all linear 0.3s;
+}
+
+.account__fb span:hover,
+.account__gg span:hover {
+    color: var(--primary-color);
+}
+
+.account__fb i,
+.account__gg i {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    font-size: 18px;
+    color: #3a5999;
+}
+
+.account__gg svg {
+    width: 16px;
+    height: 16px;
+}
+
+.footer {
+    margin-top: 80px;
+    text-align: center;
+    border-top: 1px solid #f2f2f2;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #999;
+    letter-spacing: 0.23px;
+    padding: 24px 15px;
+}
+.footer p {
+    margin-bottom: 0;
+}
+
+.footer__mid,
+.footer__bottom {
+    margin-top: 6px;
+}
+ 
+.error-email,
+.error-pass {
+    font-size: 1.2rem;
+}
+

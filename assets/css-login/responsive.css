@@ -1,0 +1,39 @@
+
+/* xs */
+@media (max-width: 575.98px) { 
+    .header-left__logo svg{
+        width: 80% !important;
+    }
+}
+
+/* sm */
+@media (max-width: 767.98px) {
+    .header-left__logo {
+        display: unset;
+    }
+    .account {
+        margin-top: 0 !important; 
+    }
+}
+
+/* md */
+@media (max-width: 991.98px) { 
+    .section__wrap {
+        flex-direction: column-reverse;
+    }
+
+    .account {
+        margin-top: -22px;  
+    }
+
+}
+/* lg */
+@media (max-width: 1199.98px) { 
+    
+}
+
+ /* xl */
+@media (max-width: 1399.98px) { 
+    
+}
+
