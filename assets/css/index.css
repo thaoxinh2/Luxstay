@@ -8,6 +8,10 @@
     z-index: 10;
     background-color: var(--white-color);
 }
+/* div set position la relative */
+div{
+    position: relative;
+}
 
 .header-main {
     display: flex;
@@ -606,7 +610,7 @@
     z-index: 1;
     display: block;
     position: absolute;
-    left: -1%;
+    left: -3%;
     top: 50%;
     transform: translateY(-50%);
     width: 52px;
@@ -727,6 +731,135 @@
     right: -1%;
     transform: translateY(-100%);
 }
+
+/* dat phong homestay */
+.select {
+    margin-bottom: 82px;
+
+}
+
+.select__list {
+    margin-top: 24px;
+    position: relative;
+
+}
+
+
+.select__item {
+    display: block;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 1px 1px 2px rgb(0 0 0 / 20%);
+}
+
+.select__item:hover .select__desc {
+    color: var(--primary-color);
+}
+
+
+.select__img {
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 3px;
+}
+.select__content {
+    padding: 0px 18px;
+}
+
+.select__heading {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #555;
+    margin-top: 12px;
+    margin-bottom: 4px;
+}
+
+.select__desc {
+    font-size: 1.3rem;
+    color: rgb(21, 27, 38);
+    line-height: 1.8rem;
+    transition: color ease-in-out 0.3s;
+    font-weight: 500;
+}
+
+.select__button-left {
+    transform: translateY(-100%);
+}
+
+.select__button-right {
+    right: -1%;
+    transform: translateY(-100%);
+}
+
+
+.select .review-score__box {
+    background-color: #fb9236;
+    font-size: 16px;
+    height: 24px;
+    width: 32px;
+    color:#fff;
+    align-items: center;
+    text-align: center;
+    border-radius: 6px 6px 6px 0px;
+}
+
+.select .review-rate{
+    font-size: 14px;
+    color: rgb(21, 27, 38);
+    font-weight: 500;
+    line-height: 24px;
+    padding: 0 8px;
+
+}
+
+.select-box .review-space{
+    height: 2px;
+    width: 2px;
+    line-height: 24px;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+.select .review-rate__number{
+    font-size: 14px;
+    color: rgb(112, 116, 122);
+    font-weight: 400;
+    line-height: 24px;
+    padding: 0 4px;
+}
+
+.select .review-box {
+    display: flex;
+    margin-top: 12px;
+}
+
+.select .button-selectroom {
+    height: 36px;
+    width: 100%;
+    align-items: center;
+    border-radius: 5px;
+    margin: 12px 0px;
+    outline: none;
+    background-color: #fff; 
+    box-sizing: border-box;
+    color: var(--primary-color);
+    font-size: 14px;
+    border: 1px solid #fb9236;
+    position: relative;
+    /*  */
+  
+    
+}; 
+
+.select .button-selectroom:hover {
+    background-color: #5f5b91;
+    color:rgba(223, 21, 21, 0.5);
+}; 
+
+
+/* ket thuc dat phong homestay */
 
 .conquer__list {
     margin-top: 18px;
@@ -1041,4 +1174,152 @@
 
 .footer-bottom__wrap p:last-child {
     margin-bottom: 0;
+}
+
+/* css cho modal cua dat ve */
+
+.modal1-container {
+    display: flex;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    height: 580px;
+    width: 720px;
+    align-items: centers;
+    background-color: #a86060;
+
+}
+
+.account__email {
+    position: relative;
+    margin-bottom: unset;
+}
+
+.account__email-label {
+    position: absolute;
+    top: -60%;
+    color: var(--text-color);
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+
+.account__title {
+    margin-bottom: 60px;
+}
+
+.account__section {
+    margin-top: 4px;
+}
+
+.account__label,
+.modal-title {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: var(--text-color);
+    margin-bottom: 10px;
+}
+
+.modal-title {
+    margin-bottom: 0;
+}
+.account__label {
+    margin-bottom: 4px;
+    font-size: 1.2rem;
+}
+
+.account__label span {
+    font-size: 1.2rem;
+    color: rgb(158, 157, 157);
+    font-weight: 400;
+}
+
+.account__info {
+    display: flex;
+    position: relative;
+}
+
+.account__info-icon {
+    text-align: right;
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.account__phone-btn {
+    background-color: #f6f6f6;
+    display: flex;
+    align-items: center;
+    width: 112px;
+    height: 44px;
+    justify-content: center;
+    border-radius: 32px;
+    margin-right: 16px;
+    cursor: pointer;
+}   
+
+.account__phone-flag {
+    width: 24px;
+    height: 18px;
+    position: relative;
+    top: 1px;
+}
+
+.account__phone-number {
+    font-size: 1.6rem;
+    color: var(--text-color);
+    line-height: 10px;
+    margin-left: 4px;
+}
+
+.account__phone-number i {
+    font-size: 1rem;
+    position: relative;
+    bottom: 1px;
+}
+
+.account__input {
+    outline: none;
+    border: 1px solid #e6e6e6;
+    padding: 4px 12px;
+    height: 35px;
+    border-radius: 48px;
+    font-size: 1.2rem;
+}
+
+.account__center {
+    font-size: 1.2rem;
+    color: #555;
+    margin: 30px 0;
+}
+
+.account__center a {
+    color: #555;
+    font-weight: 700;
+    transition: all linear 0.3s;
+}
+
+.account__center a:hover {
+    color: var(--primary-color);
+}
+
+.error-email {
+    font-size: 1.2rem;
+}
+
+.error-phone {
+    font-size: 1.2rem;
+    margin-left: 45%;
+}
+
+.error-pass-again,
+.error-pass,
+.error-subname,
+.error-name {
+    font-size: 1.2rem;
 }
